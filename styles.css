@@ -30,11 +30,11 @@ p{
     margin: 15px 0 20px 0;
 }
 
-.deafult-marg1{
+.default-marg1{
     margin: 40px 80px;
 }
 
-.deafult-marg2{
+.default-marg2{
     margin: 40px 0;
 }
 
@@ -707,6 +707,8 @@ footer .copyright{
 
 /* SHOP PAGE */
 
+    /* more work to do */
+
 #product1 .pro-container{
     padding-top: 0;
 }
@@ -780,4 +782,58 @@ footer .copyright{
 #product-details .product-description button{
     color: white;
     background-color: #14615b ;
+}
+
+/* ABOUT US */
+
+#about-header{
+    background-image: url(img/banner/about-header.jpg);
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    background-position: top 60% right 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#about{
+    display: flex;
+    align-items: center;
+}
+
+#about div{
+    margin-left: 40px;
+}
+
+#about-header h2{
+    font-weight: 400;
+    color: white;
+}
+
+#about h2{
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+#about p{
+    line-height: 30px;
+}
+
+#about-header p{
+    margin: 5   px 0 20px 0;
+}
+
+#about img{
+    width: 50%;
+    border-radius: 5px;
+}
+
+.wavy{
+    text-decoration-line: underline; 
+    text-decoration-style: wavy; 
+    color:black; 
+    display:inline-block;
 }
