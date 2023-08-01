@@ -241,6 +241,10 @@ body{
 
 }
 
+#product1 .pro a{
+    text-decoration: none;
+}
+
 #product1 .pro img{
     width: 100%;
     border-radius: 15px;
